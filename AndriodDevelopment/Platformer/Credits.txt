@@ -1,0 +1,13 @@
+Credits:
+All platformer skins: https://opengameart.org/content/platform-pack
+hit.wav: https://freesound.org/people/Robinhood76/sounds/100800/
+gameover.wav: https://freesound.org/people/themusicalnomad/sounds/253886/
+gamestart.wav: https://freesound.org/people/FartBiscuit1700/sounds/368691/
+gamewin.wav: https://freesound.org/people/LittleRobotSoundFactory/sounds/270545/
+coin.wav: https://freesound.org/people/ProjectsU012/sounds/341695/
+powerup.wav: https://freesound.org/people/AbbasGamez/sounds/411443/
+bell_ding.wav: produced by Natasha Bianca Mangan using an audio mixer
+platformer1.mp3: produced by Natasha Bianca Mangan
+platformer2.wav: produced by Natasha Bianca Mangan
+https://stackoverflow.com/questions/11377004/how-to-retrieve-2d-array-from-xml-string-resource-for-android
+http://gamecodeschool.com/android/coding-android-sprite-sheet-animations/
