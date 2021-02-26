@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Platformer</string>
+    <string name="health">Health:</string>
+    <string name="collectibles_txt">Collected Collectibles:</string>
+    <string name="divider">/</string>
+    <string name="player">player</string>
+</resources>

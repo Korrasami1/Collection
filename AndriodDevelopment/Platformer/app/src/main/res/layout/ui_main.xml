@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="@dimen/keypad_size"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/uiMain">
+
+
+    <TextView
+        android:id="@+id/playerHealth"
+        android:layout_width="65dp"
+        android:layout_height="31dp"
+        android:text="@string/health"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/healthView"
+        android:layout_width="42dp"
+        android:layout_height="34dp"
+        android:contentDescription="@string/health"
+        app:layout_constraintStart_toEndOf="@+id/playerHealth"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/life_health_full" />
+
+    <TextView
+        android:id="@+id/collectiblesView"
+        android:layout_width="226dp"
+        android:layout_height="21dp"
+        android:text="@string/collectibles_txt"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/levelAnim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/player"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+</android.support.constraint.ConstraintLayout>
