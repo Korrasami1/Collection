@@ -1,5 +1,5 @@
 #pragma once
-//this is part of a lab project as a pair of people, both coded their own solution and collaborated on optimization
+//this is part of a lab project as a pair of people, both coding their own solution.
 
 #include <GL/glew.h>
 #include <vector>
